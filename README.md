@@ -20,3 +20,7 @@ Proyecto final de Tecnologías para la Web
   7.1 Información por alumno
   7.2 Información por evento 
     7.2.1 Alumnos confirmados e invitados
+
+# Referencias de apoyo 
+1. Lector QR con WebCam: https://github.com/schmich/instascan
+2. Plantilla de menu principal: http://www.designova.net/collections/signature/adler/index.html
