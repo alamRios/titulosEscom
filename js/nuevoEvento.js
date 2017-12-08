@@ -1,12 +1,20 @@
 $(document).ready(function(e){
     $("#formUpl").submit(function(e){
         e.preventDefault();
-        //var formulario = new FormData($(this)[0]); //!IMPORTANT
-        //console.log(formulario);
         $('#archivoEstudiantes').parse({
             config : {
                 complete : function (res){
-                    console.log(res.data);
+                    var req = res; 
+                    req.idevento = 1; 
+                    $.ajax({
+                        method:"post",
+                        url:"/titulosEscom/php/eventos/registrarAlumnosAEvento.php",
+                        dataType: "json",
+                        data: {alumnosAEvento:req},
+                        success : function(res){
+                            console.log(res);
+                        }
+                    })
                 }
             }
         });
