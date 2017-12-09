@@ -9,6 +9,7 @@
 	  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	  <script type="text/javascript" src="js/materialize.min.js"></script>
 	  <script type="text/javascript" src="js/index.js"></script>
+          <script type="text/javascript" src="js/sweetalert2.all.js"></script>
   </head>
   <body>
   	<div class="section"></div>
@@ -40,9 +41,9 @@
 					<input class='validate' type='password' name='usr_pass' id='usr_pass' />
 					<label for='usr_pass'>Ingrese su contraseña</label>
 				  </div>
-				  <label style='float: right;'>
+				  <!--label style='float: right;'>
 									<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
-								</label>
+								</label-->
 				</div>
 
 				<br />
@@ -54,7 +55,6 @@
 			  </form>
 			</div>
 		  </div>
-		  <a href="#!">Create account</a>
 		</center>
 
 		<div class="section"></div>

@@ -1,5 +1,7 @@
 <?php
-	$conn= mysql_connect("localhost","root","") or die('No se pudo conectar');
+	error_reporting(E_ERROR | E_PARSE);
+        
+        $conn= mysql_connect("localhost","root","") or die('No se pudo conectar');
 	mysql_select_db("escomtitulos",$conn) or die (
 	"Error: No es posible establecer la conexión"
 	);

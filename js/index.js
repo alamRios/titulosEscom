@@ -10,9 +10,13 @@ $(document).ready(function(){
 			cache:false,
 			success: function(respAX){
 				if(respAX == "1")
-					alert("Usuario valido");
+                                    $(location).attr("href","/titulosEscom/inicio");
 				else
-					alert("usuario invalido");
+                                    swal(
+                                        'Usuario y/o contraseña incorrectos',
+                                        'Favor de verificarlos',
+                                        'error'
+                                      )
 			}
 		});
 	});
