@@ -1,5 +1,5 @@
 <?php
-	error_reporting(E_ERROR | E_PARSE);
+	error_reporting(E_WARNING );
         
         $conn= mysql_connect("localhost","root","") or die('No se pudo conectar');
 	mysql_select_db("escomtitulos",$conn) or die (

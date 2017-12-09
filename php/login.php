@@ -3,6 +3,7 @@
     include("configbd.php");
     include("getPosts.php");
 
+    ini_set( "display_errors", 0); 
     $dusr_pass = md5($usr_pass);
 
     $sqlAcc = "select idusuario, isnull(idestudiante) tipoUsr from usuario left join estudiante on idusuario = estudiante_boleta WHERE idusuario='$usr_boleta' AND usuario_pass='$dusr_pass'";

@@ -1,5 +1,6 @@
 // JavaScript Document
 $(document).ready(function(){
+    
 	$("#loginForm").submit(function(e){
 		e.preventDefault(); 
 		var datos = $(this).serialize(); 
