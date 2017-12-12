@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color:black;
+}
+form h1{
+	text-align: center;
+	color:#F9F9F9;
+	margin:25px 50px 80px;
+	font-size:80pt;
+	font-family: 'Pinyon Script', cursive;
+}
+input[type=text],select{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sixing:border-box;
+	
+
+}
+input[type=text]{
+	width: 95%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sixing:border-box;
+	
+
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color:#36030E;
+	color:white;
+	padding:14px 20px;
+	margin:8px 0;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+	
+
+}
+
+input[type=submit]:hover{
+	width: 100%;
+	background-color:#570405;
+	
+}
+
+div{
+	border-radius:5px;
+	background-color:#000;
+	margin: 50px 60px 75px 100px;
+	padding: 10px;
+	
+	
+	
+	
+}
+
+label{
+	color:#F8F8F8;
+	font-size:15pt;
+	text-align:left;
+	}
+
+table, th, td {
+   border: 1px solid #F3F3F3;
+}
+table {
+	margin: 50px 60px 75px 100px;
+    width: 80%;
+}
+
+th {
+	background-color:#36030E;
+    height: 70px;color:#F8F8F8;
+	font-size:15pt;
+	
+}
+td {
+    height:20px;color:#F8F8F8;
+	text-align:center;
+}
+
