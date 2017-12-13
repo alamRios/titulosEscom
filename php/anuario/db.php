@@ -25,18 +25,30 @@ function get_imgs(){
 }
 
 function get_img($id){
+<<<<<<< HEAD
 	$image = array();
 	$con = con();
 	$query=$con->query("select * from evento_estudiante_foto where evento_estudiante_foto_idestudiante=$id");
 	while($r=$query->fetch_object()){
 		$image[] = $r;
+=======
+	$image = null;
+	$con = con();
+	$query=$con->query("select * from evento_estudiante_foto where id=$id");
+	while($r=$query->fetch_object()){
+		$image = $r;
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 	}
 	return $image;
 }
 
 function get_validar($v,$id){
 	$con = con();
+<<<<<<< HEAD
 	$query=$con->query("UPDATE evento_estudiante_foto SET  valido =$v WHERE evento_estudiante_foto_idestudiante =$id");  /*update image set valido=$v where id=39");*/
+=======
+	$query=$con->query("UPDATE evento_estudiante_foto SET  valido =$v WHERE id =$id");  /*update image set valido=$v where id=39");*/
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 	
 }
 

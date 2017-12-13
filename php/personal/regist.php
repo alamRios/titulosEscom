@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<<<<<<< HEAD
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Personal</title>
 
@@ -11,16 +12,35 @@
 <script src="js/index.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+=======
+<meta charset="utf-8">
+<title>Personal</title>
+
+<link rel="stylesheet" type="text/css" href="fontAwesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" type="text/css" href="../../css/hola.css">
+
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/index.js"></script>
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 </head>
 
 <body>
 
 	<div>	 
 	<form action="abrir.php" method="POST">
+<<<<<<< HEAD
 		<h1>Registro del Personal a Evento</h1>
 	
 		<label for="escuela">Selecciona</label>
 		<select id="personal_escuela" required name="personal_escuela">
+=======
+		<h1>Registro del Personal</h1>
+	
+		<label for="titulo">Titulo</label>
+		<select id="personal_titulo" required name="personal_titulo">
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 		<option> </option>
 		<option>Instituto Politecnico Nacional</option>
 		<option>Escuela Superior de Computo</option>
@@ -54,6 +74,7 @@
 		<option>Jefe del Depto.de Ingenieria en Sistemas Computacionales</option>
 		</select>
 		
+<<<<<<< HEAD
 		<label for="titulo">Titulo</label>
 		<select id="personal_titulo" required name="personal_titulo">
 		<option> </option>
@@ -65,6 +86,8 @@
 		<option>Dra.</option>
 		</select>
 		
+=======
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 	<label for="nombre">Nombre</label>
 	<input type="text" required name="personal_nombre" placeholder="Nombre..."value="" />
 	

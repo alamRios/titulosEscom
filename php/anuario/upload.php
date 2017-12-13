@@ -1,10 +1,14 @@
 <?php
+<<<<<<< HEAD
  session_start(); 
     if (!isset($_SESSION["usr_id"])) {
         header("Location: /titulosEscom");
         die();
     }
 $id=$_SESSION['usr_id'];
+=======
+
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 include "db.php";
 include "class.upload.php";
 
@@ -30,7 +34,11 @@ foreach ($files as $file) {
     $handle->Process("uploads/");
     if ($handle->processed) {
     	// usamos la funcion insert_img de la libreria db.php
+<<<<<<< HEAD
     	insert_img("uploads/",$handle->file_dst_name,1,$id,"0");
+=======
+    	insert_img("uploads/",$handle->file_dst_name,1,2,"0");
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
     } else {
 	  $error = true;
       echo 'Error: ' . $handle->error;
@@ -43,11 +51,15 @@ foreach ($files as $file) {
 }   
 
 if(!$error){
+<<<<<<< HEAD
 	?><script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../../js/materialize.min.js"></script>     
 	<link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
 <?php
 	print "<h4>Imagenes agregadas con Exito!</h4>";
+=======
+	print "<h4>Exito!</h4>";
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 	print "<ul><li><a href='./form.php'>Agregar mas</a></li>";
 	print "<li><a href='./images.php'>Ver imagenes</a></li>";
 }

@@ -1,6 +1,7 @@
 <?php
 include "db.php";
 $images = get_imgs();
+<<<<<<< HEAD
  session_start(); 
     if (!isset($_SESSION["usr_id"])) {
         header("Location: /titulosEscom");
@@ -12,12 +13,19 @@ $image=get_img($id);
 <html>
 	<head>
 	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+=======
+?>
+<html>
+	<head>
+			<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
     <script type="text/javascript" src="../../js/materialize.min.js"></script>     
 	<link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
 
 		<title>Anuario</title>
 	</head>
 	<body>
+<<<<<<< HEAD
 		<h1>Anuario</h1>
 		<a href="./form.php">Agregar mas</a>
 		
@@ -26,6 +34,14 @@ $image=get_img($id);
 			<ul>
 			<?php foreach($images as $img):?>
 				<li><img class="materialboxed" width="650" src="<?php echo $img->evento_estudiante_foto_folder.$img->evento_estudiante_foto_src; ?>" style="width:240px;">
+=======
+		<h1>Imagenes</h1>
+		<a href="./form.php">Agregar mas</a> - <a href="./files.php">Archivos</a>
+		<?php if(count($images)>0):?>
+			<ul>
+			<?php foreach($images as $img):?>
+				<li><img src="<?php echo $img->evento_estudiante_foto_folder.$img->evento_estudiante_foto_src; ?>" style="width:240px;">
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 				<br>
 					  <p>
 				Alumno: <?php echo $img->evento_estudiante_foto_idestudiante;?>
@@ -46,6 +62,7 @@ $image=get_img($id);
 			</ul>
 		<?php else:?>
 			<h4>No hay imagenes!</h4>
+<<<<<<< HEAD
 		<?php endif; 
 		elseif(count($image)>0):?>
 			<ul>
@@ -66,6 +83,9 @@ $image=get_img($id);
 
 <?php endif; ?>
 
+=======
+		<?php endif; ?>
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
 
 	</body>
 
