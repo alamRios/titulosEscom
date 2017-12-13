@@ -9,26 +9,16 @@
     <head>
         <meta charset="UTF-8">
 		<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
-<<<<<<< HEAD
     <script type="text/javascript" src="../js/materialize.min.js"></script> 
 		<script type="text/javascript" src="../js/slider.js"></script>
-=======
-<<<<<<< HEAD
     <script type="text/javascript" src="../js/materialize.min.js"></script> 
 		<script type="text/javascript" src="../js/slider.js"></script>
-=======
     <script type="text/javascript" src="../js/materialize.min.js"></script>     
->>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
->>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
 	<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
         <title></title>
     </head>
     <body>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
-		<nav class="indigo">
+<nav class="indigo">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo center">Bienvenido</a>
       <ul class="left hide-on-med-and-down">
@@ -76,9 +66,6 @@
       </li>
     </ul>
   </div>
-<<<<<<< HEAD
-=======
-=======
 		 <nav class="nav-extended">
     <div class="nav-wrapper">
 		<a href="#" class="brand-logo">Bienvenido</a>
@@ -95,8 +82,5 @@
       </ul>
     </div>
   </nav>
->>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
->>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
-
     </body>
 </html>
