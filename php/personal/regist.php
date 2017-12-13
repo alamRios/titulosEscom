@@ -1,6 +1,10 @@
 <!doctype html>
 <html>
 <head>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Personal</title>
 
@@ -11,16 +15,44 @@
 <script src="js/index.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+<<<<<<< HEAD
+=======
+=======
+<meta charset="utf-8">
+<title>Personal</title>
+
+<link rel="stylesheet" type="text/css" href="fontAwesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" type="text/css" href="../../css/hola.css">
+
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/index.js"></script>
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
+>>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
 </head>
 
 <body>
 
 	<div>	 
 	<form action="abrir.php" method="POST">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
 		<h1>Registro del Personal a Evento</h1>
 	
 		<label for="escuela">Selecciona</label>
 		<select id="personal_escuela" required name="personal_escuela">
+<<<<<<< HEAD
+=======
+=======
+		<h1>Registro del Personal</h1>
+	
+		<label for="titulo">Titulo</label>
+		<select id="personal_titulo" required name="personal_titulo">
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
+>>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
 		<option> </option>
 		<option>Instituto Politecnico Nacional</option>
 		<option>Escuela Superior de Computo</option>
@@ -54,6 +86,10 @@
 		<option>Jefe del Depto.de Ingenieria en Sistemas Computacionales</option>
 		</select>
 		
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
 		<label for="titulo">Titulo</label>
 		<select id="personal_titulo" required name="personal_titulo">
 		<option> </option>
@@ -65,6 +101,11 @@
 		<option>Dra.</option>
 		</select>
 		
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 43499fa378594a806cae9a7e6a59080eef00287d
+>>>>>>> 1308092b8f21de9c4967c89300704c21fc7556db
 	<label for="nombre">Nombre</label>
 	<input type="text" required name="personal_nombre" placeholder="Nombre..."value="" />
 	
